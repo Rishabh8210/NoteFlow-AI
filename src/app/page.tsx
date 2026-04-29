@@ -4,7 +4,7 @@ import { MainTitle } from "@/components/Home/MainTitle";
 
 export default function Home() {
   return (
-    <div className="min-h-screen h-auto w-screenflex flex-col">
+    <div className="min-h-screen h-auto w-screen flex flex-col">
       <Navbar />
       <section className="h-fit w-full flex flex-col py-12">
         <MainTitle />

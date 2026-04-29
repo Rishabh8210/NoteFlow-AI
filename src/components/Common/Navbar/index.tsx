@@ -36,8 +36,8 @@ export const Navbar = () => {
 
                 <button className="hidden lg:flex py-2 items-center justify-center px-2.5 shadow rounded-lg font-semibold text-sm bg-zinc-200/70 shrink-0">Pricing</button>
 
-                <button className="flex py-2 items-center justify-center px-2.5 border rounded-lg bg-blue-600/90 text-white font-semibold text-sm shrink-0">Try for free</button>
-                <Menu className="p-1.5 lg:hidden rounded-lg shadow shrink-0" size={36} strokeWidth={1.5} />
+                <button className="flex py-2 items-center justify-center px-2.5 rounded-lg shadow shadow-zinc-400 bg-blue-600/90 text-white font-semibold text-sm shrink-0">Try for free</button>
+                <Menu className="p-1.5 lg:hidden rounded-lg shadow shadow-zinc-400 shrink-0" size={36} strokeWidth={1.5} />
             </div>
         </nav>
     )

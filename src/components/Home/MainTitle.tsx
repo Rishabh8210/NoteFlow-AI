@@ -23,28 +23,27 @@ export const MainTitle = () => {
                 </div>
             </div>
 
-            <div className="py-5 px-3 w-full items-center h-fit flex flex-col gap-7 overflow-hidden">
-                <p className="text-base font-sans font-semibold">Used daily by more than 100+ users (Students and working Professionls)</p>
-                <div className="h-16 px-5 w-full flex gap-5 relative overflow-x-auto overflow-y-hidden">
-                    <span className="absolute top-0 -left-5 w-14 h-full blur-sm bg-white z-10"></span>
-                    <span className="absolute top-0 -right-5 w-14 h-full blur-sm bg-white z-10"></span>
-                    <div className="h-16 w-full flex gap-5 relative overflow-x-auto overflow-y-hidden">
-                    
-                    <div className="h-full shrink-0 w-fit flex items-center justify-center">
-                        <Facebook size={32} />
-                        <p className="text-3xl font-medium font-sans">Facebook</p>
-                    </div>
-                    <div className="h-full shrink-0 w-fit flex items-center justify-center">
-                        <Facebook size={32} />
-                        <p className="text-3xl font-medium font-sans">Facebook</p>
-                    </div>
+            <div className="py-5 w-full items-center h-fit flex flex-col gap-7 overflow-hidden">
+                <p className="text-base font-sans font-semibold">Used daily by more than 100+ users.</p>
+                {/* <div className="h-16 px-5 w-full flex gap-5 relative justify-center overflow-x-auto overflow-y-hidden">
+                    <span className="absolute top-0 left-0 w-10 h-16 blur-md bg-white z-10"></span>
+                    <span className="absolute top-0 right-0 w-10 h-16 blur-md bg-white z-10"></span>
+                    <div className="h-14 w-full flex gap-5 relative overflow-x-auto overflow-y-hidden">
+                        <div className="h-full shrink-0 w-fit flex items-center justify-center">
+                            <Facebook size={32} />
+                            <p className="text-3xl font-medium font-sans">Facebook</p>
+                        </div>
+                        <div className="h-full shrink-0 w-fit flex items-center justify-center">
+                            <Facebook size={32} />
+                            <p className="text-3xl font-medium font-sans">Facebook</p>
+                        </div>
 
-                    <div className="h-full shrink-0 w-fit flex items-center justify-center">
-                        <Facebook size={32} />
-                        <p className="text-3xl font-medium font-sans">Facebook</p>
+                        <div className="h-full shrink-0 w-fit flex items-center justify-center">
+                            <Facebook size={32} />
+                            <p className="text-3xl font-medium font-sans">Facebook</p>
+                        </div>
                     </div>
-                </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

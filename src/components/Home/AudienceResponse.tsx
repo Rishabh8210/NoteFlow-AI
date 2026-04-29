@@ -1,19 +1,21 @@
-import { PiggyBank, Rocket, UserPlus } from "lucide-react"
+import { PiggyBank, Rocket, UserPlus, UserRoundPlus, Users, UsersRound } from "lucide-react"
 
 export const AudienceResponse = () => {
     return (
-        <div className="h-fit w-full flex justify-center gap-3 items-center ">
-            <div className="h-fit w-fit flex items-center justify-center gap-2">
-                <Rocket className="text-zinc-700/95" size={24} strokeWidth={3} />
-                <p className="text-sm font-sans font-bold text-zinc-700/95">4.5 Rating</p>
+        <div className="h-fit w-full flex justify-between gap-3 items-center text-zinc-800 ">
+            <div className="h-fit w-fit flex items-center justify-center gap-1">
+                <Rocket className="text-zinc-600" size={20} fill="currentColor" strokeWidth={0}/>
+                <p className="text-sm font-sans ">4.5 rating</p>
             </div>
-            <div className="h-fit w-fit flex items-center justify-center gap-2">
-                <UserPlus className="text-zinc-700/95" size={21} strokeWidth={3} />
-                <p className="text-sm font-sans font-bold text-zinc-700/95">100+</p>
+
+            <div className="h-fit w-fit flex items-center justify-center gap-1">
+                <UserRoundPlus className="text-zinc-600" size={20} fill="currentColor"/>
+                <p className="text-sm font-sans ">100+</p>
             </div>
-            <div className="h-fit w-fit flex items-center justify-center gap-2">
-                <PiggyBank className="text-zinc-700/95" size={27} strokeWidth={3} />
-                <p className="text-sm font-sans font-bold text-zinc-700/95">4.5 Rating</p>
+
+            <div className="h-fit w-fit flex items-center justify-center gap-1">
+                <PiggyBank className="text-zinc-600" size={20} fill="currentColor" />
+                <p className="text-sm font-sans ">4.9 rating</p>
             </div>
         </div>
     )
